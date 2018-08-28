@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: ClimaCell
 x-complete: 1
@@ -18,12 +17,9 @@ paths:
   /hourly:
     post:
       summary: Post Hourly
-      description: "## Hourly Forecast Weather Data (Coming Soon)\nThe ```\u200Bhourly\u200B```
-        API call provides an hourly forecast, up to 120 hours (5 days) ahead as a
-        time series, for a specific location based on ClimaCell\u2019s proprietary
-        sensing technology and model. The location can be specified as a geocode,
-        or one of your own defined locations (see locations API calls). The weather
-        parameters returned are detailed in the \u200B__Weather Data\u200B__ section."
+      description: |-
+        ## Hourly Forecast Weather Data (Coming Soon)
+        The ```???hourly???``` API call provides an hourly forecast, up to 120 hours (5 days) ahead as a time series, for a specific location based on ClimaCell???s proprietary sensing technology and model. The location can be specified as a geocode, or one of your own defined locations (see locations API calls). The weather parameters returned are detailed in the ???__Weather Data???__ section.
       operationId: -hourly-forecast-weather-data-coming-soonthe-hourly-api-call-provides-an-hourly-forecast-up-to-120-h
       x-api-path-slug: hourly-post
       responses:
@@ -32,4 +28,3 @@ paths:
       tags:
       - Weather
       - Hourly
----

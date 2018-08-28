@@ -1,0 +1,71 @@
+{
+	"name": "Streadata.io API Gallery - Hourly",
+	"description": "This is a repository of hourly APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/hourly.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://hourly.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Weather Underground",
+			"x-api-slug": "weather-underground",
+			"description": "Weather Underground provides local & long range weather forecasts, weather reports, maps & tropical weather conditions for locations worldwide.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg",
+			"humanURL": "http://www.wunderground.com",
+			"baseURL": "https://api.wunderground.com//api/",
+			"tags": "Hourly",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/hourly/master/_listings/weather-underground/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Weatherbit.io",
+			"x-api-slug": "weatherbit-io",
+			"description": "Our Weather API is the most powerful Weather data API on the web. Sign up for our free Weather API, and upgrade as your weather data needs grow!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28119-weatherbit.jpg",
+			"humanURL": "http://weatherbit.io",
+			"baseURL": "https://api.weatherbit.io//v2.0",
+			"tags": "Hourly",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/hourly/master/_listings/weatherbit-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ClimaCell",
+			"x-api-slug": "climacell",
+			"description": "ClimaCell provides the most accurate weather data in the world by integrating proprietary data extracted from wireless networks and other new sensing technologies with data from traditional sensors. With 90% correlation to ground truth (vs. 50% using radar), it&rsquo;s the best you can get for your enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-climacell.jpg",
+			"humanURL": "https://www.climacell.co",
+			"baseURL": "https://api2.climacell.co//v2",
+			"tags": "Hourly",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/hourly/master/_listings/climacell/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Hourly",
+	"include": [
+		{
+			"name": "Weather Underground",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/hourly/master/_listings/weather-underground/apis.yaml"
+		},
+		{
+			"name": "Weatherbit.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/hourly/master/_listings/weatherbit-io/apis.yaml"
+		},
+		{
+			"name": "ClimaCell",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/hourly/master/_listings/climacell/apis.yaml"
+		}
+	]
+}
